@@ -32,8 +32,8 @@ const createInnerHTML = () => {
                 <td>${empData._salary}</td>
                 <td>${showStartDate(empData._startDate)}</td>
                 <td>
-                    <img src="../assets/icons/delete-black-18dp.svg" id="${empData._id}" onclick="remove(this)" alt="">
-                    <img src="../assets/icons/create-black-18dp.svg" id="${empData._id}" onclick="update(this)" alt="">
+                    <img src="./assets/icons/delete-black-18dp.svg" id="${empData._id}" onclick="remove(this)" alt="">
+                    <img src="./assets/icons/create-black-18dp.svg" id="${empData._id}" onclick="update(this)" alt="">
                 </td>
             </tr>
             `;
